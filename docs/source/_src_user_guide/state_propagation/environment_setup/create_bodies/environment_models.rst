@@ -50,6 +50,9 @@ The complete list of available environment model settings can be found on our AP
 
    * These models provide various ways in which to define the response of a body to incident radation pressure.
 
+..
+   TODO-RP Change once tudatpy interface is known, link to _radiation_pressure_acceleration
+
 * `Ground stations <https://py.api.tudat.space/en/latest/ground_station.html>`_, to be assigned to the :attr:`~tudatpy.numerical_simulation.environment_setup.BodySettings.ground_station_settings` attribute of :class:`~tudatpy.numerical_simulation.environment_setup.BodySettings`.  Note: this attribute is a list, and any number of stations may be added.  
 
    * These models define ground stations (which includes planetary landers) on a celestial body. Each ground station may have any number of station motion models assigned to it. 
